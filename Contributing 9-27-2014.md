@@ -1,5 +1,5 @@
 #Overview of github
-For the meeting on September 17, 2014
+####For the meeting on September 17, 2014
 ---
 1. Explore the code available online open source is best source
 2. Create an account on Github join bsucsclub group
