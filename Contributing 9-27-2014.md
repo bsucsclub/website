@@ -3,7 +3,7 @@
 1. Explore the code available online open source is best source
 2. Create an account on Github join bsucsclub group
 3. Fork from bsucsclub
-4. ssh into local machines
+4. ssh into the server `ssh {user}@cs.bemidjistate.edu`
 
   ```
   $mkdir test; cd test
@@ -14,20 +14,22 @@ You may get an Error here
 ###help generating an ssh key
 https://help.github.com/articles/generating-ssh-keys  
 
-`$ssh keygen -t rsa -C "email"  
-
+```
+$ssh keygen -t rsa -C "email"  
 $git clone git@github.com:{USER}/website`  
+```
 
 #####Now you should have have all the files locally
 You may get a warning here
 
-    ```
-    $git config --global user.name "John Doe"
-    $git config --global user.email johndoe@example.com
-    $git status
-    $git log
-    $git log --graph
-    ```
+```
+$git config --global user.name "John Doe"
+$git config --global user.email johndoe@example.com
+$git status
+$git log
+$git log --graph
+```
+    
 #####(explore git)
 #####Explain what it does
 ---
