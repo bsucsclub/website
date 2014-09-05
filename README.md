@@ -20,7 +20,7 @@ $ssh keygen -t rsa -C "email"
 $cat ~/.ssh/id_rsa.pub
 ```
 
-Copy this public rsa key into the ssh keys on Github
+Copy this public rsa key into the ssh keys on Github (User Settings -> SSH keys -> add ssh key)
 This is just a security feature.
 
 ```
