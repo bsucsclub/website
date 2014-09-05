@@ -17,6 +17,13 @@ https://help.github.com/articles/generating-ssh-keys
 
 ```
 $ssh keygen -t rsa -C "email"  
+$cat ~/.ssh/id_rsa.pub
+```
+
+Copy this public rsa key into the ssh keys on Github
+This is just a security feature.
+
+```
 $git clone git@github.com:{USER}/website`  
 ```
 
