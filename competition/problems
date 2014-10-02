@@ -1,0 +1,95 @@
+#1 Brave the hallway (10 pts)
+  Bob is a daring adventurer.  But he likes to keep his wits about him and only go down hallways with treasures if they are worth it.  He has figured out a way to tell if a hallway is worth it by creating a table of danger and rewards.
+  Bob will only go down a hallway if the rewards outweigh the dangers (>50%).
+  
+  A single hallway will be given on each line
+  Bob's table
+  %   "Slicer Risk" 				 -13%
+  ^   "Spike"        				 -12%
+  *   "Giant Hornet" 				 -8%
+  $   "Dollar Bill"  				 +20%
+  0   "Ruppee"                                   +10%
+  |_| "Treasure Chest"				 +100%
+  ||  "False Chest -- Potentially booby trapped" -6%
+      "Empty hall space 			  0%
+
+  A hallway may look like this. 
+  '  $0 **|| ^% |_| %%'
+  Bob has to traverse the whole hallway if he decides to traverse it.
+  This has a risk to reward ratio of 57%.  This hallway is worth Bob's time.  print "go"
+  otherwise print "do not go"
+
+  There will be 10 test cases
+  **The way Bob sees it, things start out as 50% risk 50% reward
+
+
+
+
+
+
+___________________________________________________________________________________________________________
+#2 Oops (10 pts)
+  Bob copies and pastes all sorts of stuff from the internet.  Bob didn't drink coffee Monday and finds out he spend the whole day copying many different charts with rows out of order.  He doesn't remember what all of the charts looks like, but knows the error is similar to this example:
+
+
+1,2,3,4
+5,6,7,8
+13,14,15,16
+9,10,11,12
+
+One, and only one, of the rows is out of order. All of the rows are sorted already, just the placement of one of the rows is wrong.
+  Create a program that reads in a comma separated values file containing a 4x4 table and print the table back in the right order.  i.e.
+   
+1,2,3,4
+5,6,7,8
+9,10,11,12
+13,14,15,16
+
+the given problem will be different numbers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+______________________________________________________________________________________________
+#3 rotate 180 (10 pts)
+Take as input a 4x4 matrix in a comma separated values (csv) file.  This one will already be sorted, thanks to Bob, but Bob has requested it be rotated
+
+1,2,3,4
+5,6,7,8
+9,10,11,12
+13,14,15,16
+
+This table should be returned as
+
+16,15,14,13
+12,11,10,9
+8,7,6,5
+4,3,2,1
+
+The given problem will be different numbers
+
+___________________________________________________________________________________________
+#4 Switcheroo (10 pts)
+In a given sequence such as
+ATGCGGCCTAATTCG
+
+change all of the Ts to As, all of the As to Ts, all of the Gs to Cs, and all of the Gs to Cs.
+This example would return
+TACGCCGGATTAAGC
+
+the given problem will be a different ordering of TAGCs on one line
+
+
+
+
