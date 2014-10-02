@@ -81,24 +81,22 @@
         </tr>
         <!--[new event]-->
         <tr>
-            <td>September 29, 2014</td>
+            <td>Monday October 6th, 2014</td>
             <td>3:00pm</td>
             <td>A.C. Clark Library</td>
             <td>Programming Competition Practice (all invited)</td>
         </tr>
-        <tr>
-            <td>October 1, 2014</td>
-            <td>4:00pm</td>
-            <td>HS104</td>
-            <td>Meeting:
-                IPython -- Creating graphs and plotting functions with IPython notebooks.</td>
-        </tr>
         <tr><td>Wed. Oct. 8</td>
             <td>4:00pm</td>
             <td>Hagg Sauer</td>
-            <td>Allianz is coming to talk about career opportunities</td></tr>
+            <td>Allianz is coming to talk about career opportunities</td>
+        </tr>
+        <tr><td>Wed. Oct. 29</td>
+            <td>4:00pm</td>
+            <td>Hagg Sauer</td>
+            <td>Ascensus is coming to talk about career opportunities</td>
+        </tr>
     </table>
-
 
     <!-- NEWS -->
     <div class="page-header">
@@ -166,6 +164,17 @@
         <div class="col-sm-4">
             <div class="panel panel-warning">
                 <div class="panel-heading">
+                    <h3 class="panel-title">Math Club Problem of the Month</h3>
+                </div>
+                <div class="panel-body">
+                    <h5>Take part in Math Club's challenge!</h2> <a href="https://bemidjistate.collegiatelink.net/organization/mathclub/news/details/53458?fromCampus=False">BSU Math Club</a>
+                </div>
+            </div>
+
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
                     <h3 class="panel-title">Sign up</h3>
                 </div>
                 <div class="panel-body">
@@ -175,6 +184,7 @@
 
         </div><!-- /.col-sm-4 -->
     </div>
+
 </div>
 </div> <!-- /container -->
 

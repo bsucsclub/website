@@ -17,7 +17,7 @@
         <div class="navbar-collapse collapse" id="ClossThis2">
 			<nav>
             <ul class="nav navbar-nav">
-                <li class="active" onclick="clossNav()" ><a href="/csclub/index.php">Home</a></li>
+                <li class="active" ><a onclick="clossNav()" href="/csclub/index.php">Home</a></li>
                 <li><a onclick="clossNav()" href="/csclub/content/history.php">History</a></li>
                 <li><a onclick="clossNav()" href="/csclub/content/calendar.php">Calendar</a></li>
                 <li><a onclick="clossNav()" href="/csclub/content/documents.php">Documents</a></li>

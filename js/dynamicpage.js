@@ -7,8 +7,10 @@ $(function() {
 		baseHeight = $pageWrap.height() - $mainContent.height();
 		
 		//update url so we can use back+forward browser buttons
-		$("nav").delegate("a", "click", function() {
+		$("nav li").delegate("a", "click", function() {
 			_link = $(this).attr("href");
+            $("nav li").removeClass("active");
+            $(this).parent().addClass("active");
 			history.pushState(null, null, _link);
 			loadContent(_link);
 			return false;
