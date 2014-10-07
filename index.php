@@ -51,7 +51,7 @@
                     <div class="row">
                         <div class="col-xs-4">
                             <p> 
-                                <a href="http://vim-adventures.com/">Learn Vim Editor With a Game<img src="http://joelhooks.com/images/vim_adventures.jpg" class="img-responsive" />
+                            <a href="http://vim-adventures.com/">Learn Vim Editor With a Game<img src="http://joelhooks.com/images/vim_adventures.jpg" class="img-responsive" />
                             </a>
                             </p>
                         </div>
@@ -82,20 +82,21 @@
                     </tr>
                     <!--[new event]-->
                     <tr>
-                        <td>Monday October 6th, 2014</td>
+                        <td>Wednesday October 8th 2014</td>
+                        <td>4:00pm</td>
+                        <td>Hagg Sauer 231</td>
+                        <td>Allianz is coming to talk about career opportunitiesi <b>PIZZA!</b></td>
+                    </tr>
+                    <tr>
+                        <td>Monday October 13th, 2014</td>
                         <td>3:00pm</td>
                         <td>A.C. Clark Library</td>
                         <td>Programming Competition Practice (all invited)</td>
                     </tr>
-                    <tr><td>Wed. Oct. 8</td>
+                    <tr><td>Wednesday October 29th 2014</td>
                         <td>4:00pm</td>
-                        <td>Hagg Sauer</td>
-                        <td>Allianz is coming to talk about career opportunities</td>
-                    </tr>
-                    <tr><td>Wed. Oct. 29</td>
-                        <td>4:00pm</td>
-                        <td>Hagg Sauer</td>
-                        <td>Ascensus is coming to talk about career opportunities</td>
+                        <td>Hagg Sauer 231</td>
+                        <td>Ascensus is coming to talk about Ascensus and providing <b>PIZZA!</b></td>
                     </tr>
                 </table>
 
