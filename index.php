@@ -49,21 +49,29 @@
                 </div>
                 <div class="well" style="background: #e6daa6;">
                     <div class="row">
+                        <a href="content/league.php">
+
+                            <div class="col-xs-4">
+                                <div class="panel panel-danger">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">League of Legends</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/league.jpg" class="img-responsive"/>
+                                        <p>Sign-up for the League of Legends tournament December, 6th</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                         <div class="col-xs-4">
-                            <p> 
-                            <a href="http://vim-adventures.com/">Learn Vim Editor With a Game<img src="http://joelhooks.com/images/vim_adventures.jpg" class="img-responsive" />
-                            </a>
-                            </p>
-                        </div>
-                        <div class="col-xs-4">
-                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrt3uV0lfdtb4CeOG9vp-kfOViyP8uorKXOdOmGYHnndk28ijn6Q" class="img-responsive"/>
-                            <p>Keep an eye out for the upcoming League of Legends tournament</p>
-                        </div>
-                        <div class="col-xs-4">
-                            <a href="http://www.bemidjistate.edu/news/news-updates/2012/04/30/high-altitude-balloon-team">
-                                High Altitude Air Balloon Project
-                                <img src="http://www.weber.edu/WSUImages/WSUToday/balloon%20photo%201.jpg" class="img-responsive"/>
-                            </a>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Ascensus</h3>
+                                </div>
+                                <div class="panel-body">
+<a href="content/ascensus.pdf">Ascensus Flyer</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -82,16 +90,10 @@
                     </tr>
                     <!--[new event]-->
                     <tr>
-                        <td>Wednesday October 8th 2014</td>
+                        <td>Wednesday November 5th, 2014</td>
                         <td>4:00pm</td>
-                        <td>Hagg Sauer 231</td>
-                        <td>Allianz is coming to talk about career opportunitiesi <b>PIZZA!</b></td>
-                    </tr>
-                    <tr>
-                        <td>Monday October 13th, 2014</td>
-                        <td>3:00pm</td>
-                        <td>A.C. Clark Library</td>
-                        <td>Programming Competition Practice (all invited)</td>
+                        <td>Hagg Sauer 104</td>
+                        <td>Meeting: Weapons for a debugging toolbelt.</td>
                     </tr>
                     <tr><td>Wednesday October 29th 2014</td>
                         <td>4:00pm</td>
@@ -106,24 +108,6 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-4">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">AIC/ACS</h3>
-                            </div>
-                            <div class="panel-body" style="overflow:auto;">
-                                <h5>AIC/ACS Contact</h5>
-                                <p>Skip Fogus talked to the Data and Networking class Monday Sept. 8th.
-                                <table class="table table-bordered">
-                                    <tr><td>name</td><td>Skip Fogus</td></tr>
-                                    <tr><td>email</td><td>skip.fogus@analysts.com</td></tr>
-                                    <tr><td>phone</td><td>952-838-3023</td></tr>
-                                    <tr><td>website</td><td><a href="https://www.analysts.com">analysts.com</a></td></tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div><!-- /.col-sm-4 -->
-
                     <div class="col-sm-4">
                         <div class="panel panel-info">
                             <div class="panel-heading">

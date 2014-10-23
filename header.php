@@ -24,6 +24,7 @@
                 <li><a onclick="clossNav()" href="/csclub/content/officers.php">Officers</a></li>
                 <li><a onclick="clossNav()" href="/csclub/content/links.php">Links</a></li>
                 <li><a onclick="clossNav()" href="mailto:bemidjistatecsclub@gmail.com">Email Us</a></li>
+                <li id="leaguenav" style="background-color: red; color:black !important;"><a onclick="clossNav()" href="/csclub/content/league.php">LEAGUE TOURNAMENT</a></li>
             </ul>
             <script>
 			function clossNav() {
