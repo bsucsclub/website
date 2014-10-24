@@ -25,6 +25,21 @@
         <![endif]-->
 
         <link rel='stylesheet' type='text/css' href='../css/csclub.css' /> 
+        <style>
+            #pdf {
+                width: 80%;
+                height: 500px;
+                margin: 2em auto;
+                border: 10px solid #6699FF;
+            }
+            #pdf p {
+                padding: 1em;
+            }
+            #pdf object {
+                display: block;
+                border: solid 1px #666;
+            }
+        </style>
 
 
     </head>
@@ -45,7 +60,14 @@
                     </div>
                     <div class="panel-body">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="rule.pdf" width="960" height="740">loading...</iframe>
+                            <div id="pdf">
+                                <object    data="rule.pdf" 
+                                    type="application/pdf" 
+                                    width="100%" 
+                                    height="100%">
+                                    <p>It appears you don't have a PDF plugin for this browser, you can <a href="rule.pdf">click here to download the PDF file.</a></p>
+                                </object>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,7 +88,14 @@
                     </div>
                     <div class="panel-body">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="board.pdf" width="960" height="720">loading...</iframe>
+                            <div id="pdf">
+                                <object    data="board.pdf" 
+                                    type="application/pdf" 
+                                    width="100%" 
+                                    height="100%">
+                                    <p>It appears you don't have a PDF plugin for this browser, you can <a href="board.pdf">click here to download the PDF file.</a></p>
+                                </object>
+                            </div>
                         </div>
                     </div>
                 </div>

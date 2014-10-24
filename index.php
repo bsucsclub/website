@@ -89,16 +89,16 @@
                         <th scope="col">Event</th>
                     </tr>
                     <!--[new event]-->
-                    <tr>
-                        <td>Wednesday November 5th, 2014</td>
-                        <td>4:00pm</td>
-                        <td>Hagg Sauer 104</td>
-                        <td>Meeting: Weapons for a debugging toolbelt.</td>
-                    </tr>
                     <tr><td>Wednesday October 29th 2014</td>
                         <td>4:00pm</td>
                         <td>Hagg Sauer 231</td>
                         <td>Ascensus is coming to talk about Ascensus and providing <b>PIZZA!</b></td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday November 5th, 2014</td>
+                        <td>4:00pm</td>
+                        <td>Hagg Sauer 104</td>
+                        <td>Meeting: Super simple example of source control with Git. Free Food. Short Video.</td>
                     </tr>
                 </table>
 
