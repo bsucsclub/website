@@ -29,18 +29,7 @@
         <link rel='stylesheet' type='text/css' href='css/csclub.css' />
 
 
-<style>
 
-rect {
-  fill: none;
-  pointer-events: all;
-}
-
-circle {
-  fill: none;
-  stroke-width: 2.5px;
-}
-</style>
 
     </head>
 
@@ -77,14 +66,14 @@ circle {
                         <div class="col-xs-4">
                             <div class="panel panel-info">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">D3.js</h3>
+                                    <h3 class="panel-title">Ascensus</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <div id="particles"></div>
-                                    <p>Scroll over this box!</p>
+<a href="content/ascensus.pdf">Ascensus Flyer</a>
                                 </div>
                             </div>
                         </div>
+                       
                     </div>
                 </div>
 
@@ -101,16 +90,16 @@ circle {
                         <th scope="col">Event</th>
                     </tr>
                     <!--[new event]-->
+                    <tr><td>Wednesday October 29th 2014</td>
+                        <td>4:00pm</td>
+                        <td>Hagg Sauer 231</td>
+                        <td>Ascensus is coming to talk about Ascensus and providing <b>PIZZA!</b></td>
+                    </tr>
                     <tr>
                         <td>Wednesday November 5th, 2014</td>
                         <td>4:00pm</td>
-                        <td>Hagg Sauer 245</td>
-                        <td>DigiKey is coming.  They will be giving an informational talk on DigiKey.  Pizza and pop will provided.</td>
-                    </tr>
-                    <tr><td>Wednesday November 12th 2014</td>
-                        <td>4:00pm</td>
-                        <td>Hagg Sauer 245</td>
-                        <td>Federated Insurance <em>A Day in the Life of a Programmer</em></td>
+                        <td>Hagg Sauer 104</td>
+                        <td>Meeting: Super simple example of source control with Git. Free Food. Short Video.</td>
                     </tr>
                 </table>
 
@@ -196,43 +185,7 @@ circle {
         <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
         <script type='text/javascript' src='js/modernizr.js'></script>
         <script type='text/javascript' src='js/dynamicpage.js'></script>
-        <!--Particle Demonstration -->
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script>
 
-            var width = 280,
-            height = 90;
 
-            var i = 0;
-
-            var svg = d3.select("#particles").append("svg")
-            .attr("width", width)
-            .attr("height", height);
-
-            svg.append("rect")
-            .attr("width", width)
-            .attr("height", height)
-            .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
-
-            function particle() {
-                var m = d3.mouse(this);
-
-                svg.insert("circle", "rect")
-                .attr("cx", m[0])
-                .attr("cy", m[1])
-                .attr("r", 1e-6)
-                .style("stroke", d3.hsl((i = (i + 1) % 360), 1, .5))
-                .style("stroke-opacity", 1)
-                .transition()
-                .duration(2000)
-                .ease(Math.sqrt)
-                .attr("r", 100)
-                .style("stroke-opacity", 1e-6)
-                .remove();
-
-                d3.event.preventDefault();
-            }
-
-        </script>
     </body>
 </html>
