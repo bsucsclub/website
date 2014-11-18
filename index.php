@@ -62,19 +62,19 @@ circle {
                     <div class="row">
                         <a href="content/league.php">
 
-                            <div class="col-xs-4">
+                            <div class="col-sm-4">
                                 <div class="panel panel-danger">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">League of Legends</h3>
                                     </div>
                                     <div class="panel-body">
                                         <img src="images/league.jpg" class="img-responsive"/>
-                                        <p>Sign-up for the League of Legends tournament December, 6th</p>
+                                        <p>Currently Full, but sign up if you want to be on the waiting list.</p>
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <div class="col-xs-4">
+                        <div class="col-sm-4">
                             <div class="panel panel-info">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">D3.js</h3>
@@ -82,6 +82,28 @@ circle {
                                 <div class="panel-body">
                                     <div id="particles"></div>
                                     <p>Scroll over this box!</p>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Tron Cats 2nd place</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <img src="images/tron_cats.jpg" class="img-responsive"/>
+                                    <p>We tied for first at the Digi-Key competition.  It will be held again next year.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Digi-Key</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <img src="images/team2.jpg" class="img-responsive"/>
+                                    <p>Bemidji State University had two teams.</p>
                                 </div>
                             </div>
                         </div>
@@ -101,16 +123,10 @@ circle {
                         <th scope="col">Event</th>
                     </tr>
                     <!--[new event]-->
-                    <tr>
-                        <td>Wednesday November 5th, 2014</td>
+                    <tr><td>Wednesday November 19th 2014</td>
                         <td>4:00pm</td>
-                        <td>Hagg Sauer 245</td>
-                        <td>DigiKey is coming.  They will be giving an informational talk on DigiKey.  Pizza and pop will provided.</td>
-                    </tr>
-                    <tr><td>Wednesday November 12th 2014</td>
-                        <td>4:00pm</td>
-                        <td>Hagg Sauer 245</td>
-                        <td>Federated Insurance <em>A Day in the Life of a Programmer</em></td>
+                        <td>Hagg Sauer 104 THE CS LAB</td>
+                        <td>Learn More About <em>Northern Minnesota Girls Who Code</em> as well as Paul Bunyan Communications</td>
                     </tr>
                 </table>
 
