@@ -29,18 +29,18 @@
         <link rel='stylesheet' type='text/css' href='css/csclub.css' />
 
 
-<style>
+        <style>
 
-rect {
-  fill: none;
-  pointer-events: all;
-}
+            rect {
+                fill: none;
+                pointer-events: all;
+            }
 
-circle {
-  fill: none;
-  stroke-width: 2.5px;
-}
-</style>
+            circle {
+                fill: none;
+                stroke-width: 2.5px;
+            }
+        </style>
 
     </head>
 
@@ -60,33 +60,9 @@ circle {
                 </div>
                 <div class="well" style="background: #e6daa6;">
                     <div class="row">
-                        <a href="content/league.php">
 
-                            <div class="col-sm-4">
-                                <div class="panel panel-danger">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">League of Legends</h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        <img src="images/league.jpg" class="img-responsive"/>
-                                        <p>Currently Full, but sign up if you want to be on the waiting list.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
                         <div class="col-sm-4">
                             <div class="panel panel-info">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">D3.js</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="particles"></div>
-                                    <p>Scroll over this box!</p>
-                                </div>
-                            </div>
-                        </div>
-                          <div class="col-sm-4">
-                                <div class="panel panel-info">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Tron Cats 2nd place</h3>
                                 </div>
@@ -97,7 +73,7 @@ circle {
                             </div>
                         </div>
                         <div class="col-sm-4">
-                                <div class="panel panel-info">
+                            <div class="panel panel-info">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Digi-Key</h3>
                                 </div>
@@ -123,132 +99,58 @@ circle {
                         <th scope="col">Event</th>
                     </tr>
                     <!--[new event]-->
-                    <tr><td>Wednesday November 19th 2014</td>
-                        <td>4:00pm</td>
+                    <!--<tr><td>December 3rd</td>
+                        <td>4:00 PM</td>
                         <td>Hagg Sauer 104 THE CS LAB</td>
-                        <td>Learn More About <em>Northern Minnesota Girls Who Code</em> as well as Paul Bunyan Communications</td>
-                    </tr>
+                        <td>C and C++ languages, a taste of pointers, structs, memory management, and compiling with makefiles. </td>
+                    </tr>-->
                 </table>
 
                 <!-- NEWS -->
                 <div class="page-header">
-                    <h1>News</h1>
+                    <h1></h1>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="panel panel-info">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Digikey</h3>
-                            </div>
-                            <div class="panel-body">
-                                <div class="news-story">
-                                    <h5>Digikey Competition Problems</h5>
-                                    <a href="https://drive.google.com/folderview?id=0B4GipPSd31cuZWFyMVRucm13SU0&usp=sharing">Digikey Contest</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.col-sm-4 -->
 
-                    <div class="col-sm-4">
-                        <div class="panel panel-info">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">CS Club Competition</h3>
-                            </div>
-                            <div class="panel-body">
-                                <div class="news-story">
-                                    <h5>Our very own Programming Competition</h5>
-                                    <a href="competition">Problems and Solutions</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.col-sm-4 -->
 
-                    <div class="col-sm-4">
-                        <div class="panel panel-warning">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Github</h3>
-                            </div>
-                            <div class="panel-body">
-                                <h5>check out the github site</h2> <a href="http://www.github.com/bsucsclub">BSU CSCLUB</a>
-                            </div>
+                <!--
+                <div class="col-sm-4">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Github</h3>
                         </div>
-
-                    </div><!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
-                        <div class="panel panel-warning">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Math Club Problem of the Month</h3>
-                            </div>
-                            <div class="panel-body">
-                                <h5>Take part in Math Club's challenge!</h2> <a href="https://bemidjistate.collegiatelink.net/organization/mathclub/news/details/53458?fromCampus=False">BSU Math Club</a>
-                            </div>
+                        <div class="panel-body">
+                            <h5>check out the github site</h2> <a href="http://www.github.com/bsucsclub">BSU CSCLUB</a>
                         </div>
-
-                    </div><!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
-                        <div class="panel panel-warning">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Sign up</h3>
-                            </div>
-                            <div class="panel-body">
-                                <a href="https://docs.google.com/forms/d/1q-N_LMSw05PjY1C2lLa6O6KcNCOIeHaQraVI7Mp_WzY/viewform?usp=send_form">Sign up here to receive our emails</a>
-                            </div>
-                        </div>
-
-                    </div><!-- /.col-sm-4 -->
+                    </div>
                 </div>
+                -->
+                <div class="col-sm-4">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Sign up</h3>
+                        </div>
+                        <div class="panel-body">
+                            <a href="https://docs.google.com/forms/d/1q-N_LMSw05PjY1C2lLa6O6KcNCOIeHaQraVI7Mp_WzY/viewform?usp=send_form">Sign up here to receive our emails</a>
+                        </div>
+                    </div>
 
+                </div><!-- /.col-sm-4 -->
             </div>
-        </div> <!-- /container -->
 
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-        <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-        <script type='text/javascript' src='js/modernizr.js'></script>
-        <script type='text/javascript' src='js/dynamicpage.js'></script>
-        <!--Particle Demonstration -->
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script>
+        </div>
+    </div> <!-- /container -->
 
-            var width = 280,
-            height = 90;
-
-            var i = 0;
-
-            var svg = d3.select("#particles").append("svg")
-            .attr("width", width)
-            .attr("height", height);
-
-            svg.append("rect")
-            .attr("width", width)
-            .attr("height", height)
-            .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
-
-            function particle() {
-                var m = d3.mouse(this);
-
-                svg.insert("circle", "rect")
-                .attr("cx", m[0])
-                .attr("cy", m[1])
-                .attr("r", 1e-6)
-                .style("stroke", d3.hsl((i = (i + 1) % 360), 1, .5))
-                .style("stroke-opacity", 1)
-                .transition()
-                .duration(2000)
-                .ease(Math.sqrt)
-                .attr("r", 100)
-                .style("stroke-opacity", 1e-6)
-                .remove();
-
-                d3.event.preventDefault();
-            }
-
-        </script>
-    </body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type='text/javascript' src='js/modernizr.js'></script>
+    <script type='text/javascript' src='js/dynamicpage.js'></script>
+    <!--Particle Demonstration -->
+</body>
 </html>

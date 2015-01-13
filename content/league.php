@@ -56,44 +56,16 @@
 
                 <div class="panel panel-info">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Rules</h3>
+                        <h3 class="panel-title">Final Bracket Results</h3>
                     </div>
                     <div class="panel-body">
                         <div class="embed-responsive embed-responsive-16by9">
                             <div id="pdf">
-                                <object    data="rule.pdf" 
+                                <object    data="FinalBracket.pdf" 
                                     type="application/pdf" 
                                     width="100%" 
                                     height="100%">
                                     <p>It appears you don't have a PDF plugin for this browser, you can <a href="rule.pdf">click here to download the PDF file.</a></p>
-                                </object>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">League of Legends Sign-up Form</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="https://docs.google.com/forms/d/1P2joAo8h9jAmEAVVxbWFkrju2VNQ03ThTHz9b1souM0/viewform?embedded=true" width="960" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Standings</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <div id="pdf">
-                                <object    data="board.pdf" 
-                                    type="application/pdf" 
-                                    width="100%" 
-                                    height="100%">
-                                    <p>It appears you don't have a PDF plugin for this browser, you can <a href="board.pdf">click here to download the PDF file.</a></p>
                                 </object>
                             </div>
                         </div>
