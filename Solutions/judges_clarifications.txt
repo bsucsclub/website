@@ -1,0 +1,37 @@
+Problem A
+---------
+There are two errors in the sample output
+of the problem statement:
+
+The 3rd line of the sample input for scaling 
+factor 1 should have 5 E's, not 4.
+
+The middle part of "I" for scaling factor 2
+should have 6 rows of double I's, not 4.
+
+
+Problem E
+---------
+Assume that all input is lower case.
+
+
+Problem F
+---------
+Although G(100) and G(125) are correct in the
+sample output in the problem statement, we chose
+to use input values that were less or equal to 65
+in the Judge's input so that the output values would
+fit in a 32-bit integer. The Sample I/O is correct,
+but we announced prior to the contest that all outputs
+would fit in a 32-bit integer. This was done to so
+that Python programmers would not have a huge advantage
+over the C, C++, and Java programmers on large integers.
+
+
+Problem D
+---------
+The problem statement was fine, but we did adjust the
+judge's input file so that all output values would fit in a
+32-bit integer. The attached files reflect that change.
+There was no need to send out a clarification on this since
+we had made the announcement before the contest.

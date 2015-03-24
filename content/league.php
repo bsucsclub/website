@@ -53,7 +53,31 @@
 
         <div class="container theme-showcase" id="main-content" role="main">
             <div id="guts">
-
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sign-Up</h3>
+                    </div>
+                    <div class="panel-body">
+<iframe src="https://docs.google.com/forms/d/1P2joAo8h9jAmEAVVxbWFkrju2VNQ03ThTHz9b1souM0/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    </div>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Rules</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div id="pdf">
+                                <object    data="rule.pdf" 
+                                    type="application/pdf" 
+                                    width="100%" 
+                                    height="100%">
+                                    <p>It appears you don't have a PDF plugin for this browser, you can <a href="rule.pdf">click here to download the PDF file.</a></p>
+                                </object>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h3 class="panel-title">Final Bracket Results</h3>
@@ -61,11 +85,11 @@
                     <div class="panel-body">
                         <div class="embed-responsive embed-responsive-16by9">
                             <div id="pdf">
-                                <object    data="FinalBracket.pdf" 
+                                <object    data="8-consolation.pdf" 
                                     type="application/pdf" 
                                     width="100%" 
                                     height="100%">
-                                    <p>It appears you don't have a PDF plugin for this browser, you can <a href="rule.pdf">click here to download the PDF file.</a></p>
+                                    <p>It appears you don't have a PDF plugin for this browser, you can <a href="8-consolation.pdf">click here to download the PDF file.</a></p>
                                 </object>
                             </div>
                         </div>

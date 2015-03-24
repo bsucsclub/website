@@ -28,20 +28,6 @@
         <!-- csclub css -->
         <link rel='stylesheet' type='text/css' href='css/csclub.css' />
 
-
-        <style>
-
-            rect {
-                fill: none;
-                pointer-events: all;
-            }
-
-            circle {
-                fill: none;
-                stroke-width: 2.5px;
-            }
-        </style>
-
     </head>
 
     <body role="document">
@@ -55,6 +41,35 @@
                 <div class="jumbotron backgrounded" >
                     <h1>&nbsp; </h1>
                 </div>
+
+                <!-- EVENTS -->
+                <div class="page-header">
+                    <h1>Events</h1>
+                </div>		
+                <div class="well" style="background: #e6daa6;">
+                    <div class="row">
+                        <table class="table table-responsive table-bordered" style="background-color: white;">
+                            <tr>
+                                <th scope="col">Date</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Event</th>
+                            </tr> 
+                            <tr><td>March 19th</td>
+                                <td>4:00 PM</td>
+                                <td>HAGG SAUER 104</td>
+                                <td>Building a computer from pieces.  DIY construction.</td>
+                            </tr>
+                            <tr><td>April 10-11</td>
+                                <td>Both days</td>
+                                <td>University of North Dakota</td>
+                                <td><a href="http://www.micsymposium.org/mics2015">MICS</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- HIGHLIGHTS -->
                 <div class="page-header">
                     <h1>Highlights</h1>
                 </div>
@@ -64,93 +79,104 @@
                         <div class="col-sm-4">
                             <div class="panel panel-info">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Tron Cats 2nd place</h3>
+                                    <h3 class="panel-title">Online resources</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <img src="images/tron_cats.jpg" class="img-responsive"/>
-                                    <p>We tied for first at the Digi-Key competition.  It will be held again next year.</p>
+
+                                    <ul class="list-unstyled">
+                                        <li><a href="http://hackerrank.com">hackerrank</a></li>
+                                        <li><a href="http://udacity.com">udacity</a></li>
+                                        <li><a href="http://codingame.com">codingame</a></li>
+                                        <li><a href="http://codecademy.com">codecademy</a></li>
+                                        <li><a href="http://rosalind.info">Rosalind.info</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+
+                        <a href="content/league.php">
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">League Tournament</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <h2>April 25th</h2>
+                                        <img class="img-responsive" src="images/league.jpg"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
                         <div class="col-sm-4">
                             <div class="panel panel-info">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Digi-Key</h3>
+                                    <h3 class="panel-title">Practice for MICS programming competition.</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <img src="images/team2.jpg" class="img-responsive"/>
-                                    <p>Bemidji State University had two teams.</p>
+                                    <a href="Solutions/all_problems.pdf">Come compete at MICS!</a>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">How to Vote</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <h3>Log into the cs server</h3>
+                                    <p>type: vote</p>
+                                    <p>Last day to vote March 23rd</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-
-                <!-- EVENTS -->
+                <!-- OTHER  -->
                 <div class="page-header">
-                    <h1>Events</h1>
-                </div>		
-                <table class="table table-responsive table-bordered" style="background-color: white;">
-                    <tr>
-                        <th scope="col">Date</th>
-                        <th scope="col">Time</th>
-                        <th scope="col">Location</th>
-                        <th scope="col">Event</th>
-                    </tr>
-                    <!--[new event]-->
-                    <!--<tr><td>December 3rd</td>
-                        <td>4:00 PM</td>
-                        <td>Hagg Sauer 104 THE CS LAB</td>
-                        <td>C and C++ languages, a taste of pointers, structs, memory management, and compiling with makefiles. </td>
-                    </tr>-->
-                </table>
-
-                <!-- NEWS -->
-                <div class="page-header">
-                    <h1></h1>
+                    <h1>Other</h1>
                 </div>
+                <div class="well" style="background: #e6daa6;">
+                    <div class="row">
 
-
-
-                <!--
-                <div class="col-sm-4">
-                    <div class="panel panel-warning">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Github</h3>
+                        <div class="col-sm-4">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Sign up</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <a href="https://docs.google.com/forms/d/1q-N_LMSw05PjY1C2lLa6O6KcNCOIeHaQraVI7Mp_WzY/viewform?usp=send_form">Sign up here to receive our emails</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="panel-body">
-                            <h5>check out the github site</h2> <a href="http://www.github.com/bsucsclub">BSU CSCLUB</a>
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Suggest a person for the ballot</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <a href="http://goo.gl/forms/y1OMRMJhBe">Suggest a person for the 2015-2016 ballot.</a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                -->
-                <div class="col-sm-4">
-                    <div class="panel panel-warning">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Sign up</h3>
-                        </div>
-                        <div class="panel-body">
-                            <a href="https://docs.google.com/forms/d/1q-N_LMSw05PjY1C2lLa6O6KcNCOIeHaQraVI7Mp_WzY/viewform?usp=send_form">Sign up here to receive our emails</a>
-                        </div>
-                    </div>
+            </div> <!-- /container -->
 
-                </div><!-- /.col-sm-4 -->
-            </div>
-
-        </div>
-    </div> <!-- /container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script type='text/javascript' src='js/modernizr.js'></script>
-    <script type='text/javascript' src='js/dynamicpage.js'></script>
-    <!--Particle Demonstration -->
-</body>
-</html>
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+            <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+            <script type='text/javascript' src='js/modernizr.js'></script>
+            <script type='text/javascript' src='js/dynamicpage.js'></script>
+        </body>
+    </html>
