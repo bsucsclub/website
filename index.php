@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="images/favicon.ico">
+        <link rel="icon" type="image/ico" href="favicon.ico">
 
         <title>BSU CS Club</title>
 
@@ -55,10 +55,10 @@
                                 <th scope="col">Location</th>
                                 <th scope="col">Event</th>
                             </tr> 
-                            <tr><td>March 19th</td>
+                            <tr><td>April 2nd</td>
                                 <td>4:00 PM</td>
                                 <td>HAGG SAUER 104</td>
-                                <td>Building a computer from pieces.  DIY construction.</td>
+                                <td>MICS practice, programming competition practice.</td>
                             </tr>
                             <tr><td>April 10-11</td>
                                 <td>Both days</td>
@@ -119,19 +119,6 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-4">
-                            <div class="panel panel-info">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">How to Vote</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <h3>Log into the cs server</h3>
-                                    <p>type: vote</p>
-                                    <p>Last day to vote March 23rd</p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
@@ -151,18 +138,6 @@
                                     <a href="https://docs.google.com/forms/d/1q-N_LMSw05PjY1C2lLa6O6KcNCOIeHaQraVI7Mp_WzY/viewform?usp=send_form">Sign up here to receive our emails</a>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div class="panel panel-warning">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Suggest a person for the ballot</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <a href="http://goo.gl/forms/y1OMRMJhBe">Suggest a person for the 2015-2016 ballot.</a>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
